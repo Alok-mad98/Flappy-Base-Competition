@@ -2,19 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    
     <meta name="base:app_id" content="696e57cbf22fe462e74c156c" />
+
+    <meta
+      name="fc:miniapp"
+      content='{
+        "version": "next",
+        "imageUrl": "https://flappy-base.vercel.app/assets/base.png",
+        "button": {
+          "title": "Play Flappy Base",
+          "action": {
+            "type": "launch_frame",
+            "url": "https://flappy-base.vercel.app"
+          }
+        }
+      }'
+    />
+
+    <meta property="fc:frame" content="vNext" />
+    <meta property="fc:frame:image" content="https://flappy-base.vercel.app/assets/base.png" />
+    <meta property="fc:frame:button:1" content="Play Flappy Base" />
+    <meta property="fc:frame:button:1:action" content="link" />
+    <meta property="fc:frame:button:1:target" content="https://flappy-base.vercel.app" />
+
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="theme-color" content="#70c5ce">
     <link rel="manifest" href="/manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="/assets/base.png" />
-    <meta property="fc:frame:button:1" content="Play Flappy Base" />
-    <meta property="fc:frame:button:1:action" content="link" />
-    <meta property="fc:frame:button:1:target" content="https://flappy-base.vercel.app" />
+
     <title>Flappy Base</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
