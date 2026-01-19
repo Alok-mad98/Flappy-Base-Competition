@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import sdk from '@farcaster/frame-sdk'
 import { 
   useAccount, 
   useConnect, 
@@ -77,6 +78,13 @@ export default function App() {
   const [hasPaid, setHasPaid] = useState(false)
 
   const gameRef = useRef<Phaser.Game | null>(null)
+
+  useEffect(() => {
+    const load = async () => {
+      await sdk.actions.ready()
+    }
+    load()
+  }, [])
 
   useEffect(() => {
     if (connectError) alert(`Connection failed: ${connectError.message}`)

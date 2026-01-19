@@ -1,0 +1,16 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjE2ODksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyYzkzNDE2OTZlNzkyMzhkNTMxZTUxMTk2NDk1OThmNTBhNDhiOWY4In0",
+    "payload": "eyJkb21haW4iOiJmbGFwcHktYmFzZS52ZXJjZWwuYXBwIn0",
+    "signature": "MHgwN2Ey..."
+  },
+  "frame": {
+    "version": "1",
+    "name": "Flappy Base",
+    "iconUrl": "https://flappy-base.vercel.app/assets/base.png",
+    "homeUrl": "https://flappy-base.vercel.app",
+    "splashImageUrl": "https://flappy-base.vercel.app/assets/base.png",
+    "splashBackgroundColor": "#70c5ce",
+    "webhookUrl": "https://flappy-base.vercel.app/api/webhook"
+  }
+}
