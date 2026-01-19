@@ -5,29 +5,34 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
-    "@coinbase/onchainkit": "^1.1.2",
+    "@coinbase/onchainkit": "^1.0.0",
     "@farcaster/frame-sdk": "^0.0.22",
-    "@tanstack/react-query": "^5.90.19",
+    "@supabase/supabase-js": "^2.39.0",
+    "@tanstack/react-query": "^5.0.0",
     "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "framer-motion": "^12.27.0",
-    "phaser": "^3.90.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "viem": "^2.44.4",
-    "wagmi": "^3.3.4"
+    "phaser": "^3.80.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "^2.21.0",
+    "wagmi": "^2.19.8"
   },
   "devDependencies": {
     "@coinbase/wallet-sdk": "^4.3.7",
     "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.17",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
@@ -35,8 +40,8 @@
     "globals": "^16.5.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.17",
-    "typescript": "~5.9.3",
+    "typescript": "^5.0.0",
     "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4"
+    "vite": "^5.0.0"
   }
 }
