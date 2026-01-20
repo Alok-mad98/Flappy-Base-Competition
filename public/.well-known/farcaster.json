@@ -19,11 +19,10 @@
     "subtitle": "Fly to win on Base",
     "tagline": "Fly to win on Base",
     "ogTitle": "Flappy Base",
-    "ogDescription": "Compete for 15000 USD on Base Mainnet The ultimate onchain flappy experience",
+    "ogDescription": "Compete for 15000 USD on Base Mainnet",
     "ogImageUrl": "https://flappybase-eight.vercel.app/hero.png",
     "screenshotUrls": [
       "https://flappybase-eight.vercel.app/screenshot.png"
-    ],
-    "noindex": false
+    ]
   }
 }
