@@ -17,18 +17,23 @@
       "src": "/icon.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
     }
   ],
   "screenshots": [
     {
       "src": "/hero.png",
-      "sizes": "1200x800",
+      "sizes": "1200x630",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/icon.png",
-      "sizes": "512x512",
+      "src": "/screenshot.png",
+      "sizes": "1284x2778",
       "type": "image/png",
       "form_factor": "narrow"
     }
