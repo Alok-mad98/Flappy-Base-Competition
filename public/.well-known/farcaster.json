@@ -8,13 +8,13 @@
     "version": "1",
     "name": "Flappy Base",
     "homeUrl": "https://flappybase-eight.vercel.app",
-    "iconUrl": "https://flappybase-eight.vercel.app/assets/base.png",
-    "splashImageUrl": "https://flappybase-eight.vercel.app/assets/base.png",
+    "iconUrl": "https://flappybase-eight.vercel.app/icon.png",
+    "splashImageUrl": "https://flappybase-eight.vercel.app/icon.png",
     "splashBackgroundColor": "#70c5ce",
     "webhookUrl": "https://flappybase-eight.vercel.app/api/webhook",
     "primaryCategory": "games",
     "tags": ["game", "onchain", "flappy", "base", "action"],
-    "heroImageUrl": "https://flappybase-eight.vercel.app/assets/base.png",
+    "heroImageUrl": "https://flappybase-eight.vercel.app/hero.png",
     "description": "Experience the classic flappy bird gameplay onchain with Flappy Base!"
   }
 }
