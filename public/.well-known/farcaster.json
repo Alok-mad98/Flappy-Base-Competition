@@ -15,6 +15,13 @@
     "primaryCategory": "games",
     "tags": ["game", "onchain", "flappy", "base", "action"],
     "heroImageUrl": "https://flappybase-eight.vercel.app/hero.png",
-    "description": "Experience the classic flappy bird gameplay onchain with Flappy Base!"
+    "description": "Experience the classic flappy bird gameplay onchain with Flappy Base!",
+    "tagline": "Fly to win on Base!",
+    "ogTitle": "Flappy Base",
+    "ogDescription": "Compete for $15,000 on Base Mainnet. The ultimate onchain flappy experience.",
+    "ogImageUrl": "https://flappybase-eight.vercel.app/hero.png",
+    "screenshotUrls": [
+      "https://flappybase-eight.vercel.app/screenshot.png"
+    ]
   }
 }
