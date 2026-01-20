@@ -1,7 +1,7 @@
 {
   "name": "Flappy Base",
   "short_name": "FlappyBase",
-  "description": "Compete for $15,000 on Base Mainnet. The ultimate onchain flappy experience.",
+  "description": "Compete for 15000 USD on Base Mainnet. The ultimate onchain flappy experience.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#70c5ce",
